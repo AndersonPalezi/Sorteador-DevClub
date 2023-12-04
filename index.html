@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Sorteador DecClub</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="border"></div>
+        <div class="content">
+            <div class="logo">
+                <img src="./assets/SorteadorDevClub.png" alt="logo-devclub">
+                <h2><b>&#127808;Sortear um Número&#127808;</b></h2>
+
+                <div class="campos">
+                    <div class="input-field">
+                        <label for="min">Min:</label>
+                        <input id="min" type="number" name="min">
+                    </div>
+
+                    <div class="input-field">
+                        <label for="max">Max:</label>
+                        <input id="max" type="number" name="max">
+                    </div>
+                </div>
+                <div>
+                    <button id="generate">🎲<b>Gerar</b></button>
+                    <div id="result">
+                        <span>
+                            00
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script/script.js"></script>
+
+</html>
